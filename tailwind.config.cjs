@@ -9,6 +9,7 @@ const config = {
         brownbg: "#ADA098",
         browntext:"#8A766A",
         brownmobile: "#D2BA9A",
+        browntestimonial: "#F7EFE4",
       }
     },
   },
