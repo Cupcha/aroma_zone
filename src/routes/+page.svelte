@@ -143,30 +143,9 @@
 							<div class="mb-5">
 								<a href=" ">
 									<h3 class="text-l text-browntext text-center font-bold text-lg">
-										CBD 2,5% hydrosoluble
+										Charbon actif végétal en gélules - 120 gélules
 									</h3>
-									<p class="ml-auto text-l font-medium text-center">18,90€</p>
-								</a>
-							</div>
-							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-stone-400">
-								<span class="text-white text-lg">
-									Acheter
-								</span>
-							</a>
-						</div>
-					</div>
-
-					<div class="bg-white shadow-lg rounded-lg">
-						<a href=" ">
-							<img src={Photo_nutrition5} alt="photo1" class="rounded-t-lg">
-						</a>
-						<div class="p-4">
-							<div class="mb-5">
-								<a href=" ">
-									<h3 class="text-l font-bold text-lg">
-										Huile CBD 12%
-									</h3>
-									<p class="ml-auto text-l font-medium">19,95€</p>
+									<p class="ml-auto text-l font-medium text-center">9,90€</p>
 								</a>
 							</div>
 							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-stone-400">
@@ -182,12 +161,33 @@
 							<img src={Photo_nutrition7} alt="photo1" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
+							<div class="mb-5">
+								<a href=" ">
+									<h3 class="text-l font-bold text-lg">
+										Complément alimentaire vitamine D3 Vegan - 10 ml
+									</h3>
+									<p class="ml-auto text-l font-medium">9,90€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-stone-400">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+							</a>
+						</div>
+					</div>
+
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href=" ">
+							<img src={Photo_nutrition5} alt="photo1" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
 							<div class=" mb-5">
 								<a href=" ">
 									<h3 class="text-l font-bold text-lg">
-										Huile CBD 32%
+										Complément alimentaire magnésium triple - 120 gélules
 									</h3>
-									<p class="ml-auto text-l font-medium ">37,95€</p>
+									<p class="ml-auto text-l font-medium ">14,90€</p>
 								</a>
 							</div>
 							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-stone-400">
