@@ -28,6 +28,7 @@
 		// @ts-ignore
 		document.getElementById(target).style.display="block";
 	}
+	
 </script>
 
 <svelte:head>
@@ -35,11 +36,12 @@
 	<meta name="homepage" content="Homepage shop Aroma-zone" />
 </svelte:head>
 
+
 <body class="home">
 			<header class="fixed w-full z-1">
 				<div id="section_brands" class="w-full items-center md:font-medium">
 					<div id="shop" class="box-border flex absolute justify-center left-0 top-0 h-12 w-1/2 bg-purplebg">
-						<a href="http://localhost:5173" class="flex items-center gap-2 text-center">
+						<a href="/" class="flex items-center gap-2 text-center">
 							<img class="w-5" src={small_logo} alt="Aroma-zone"/>
 							<h1 id="boutique" class="text-browntext">[LA BOUTIQUE]</h1>
 						</a>
@@ -56,14 +58,14 @@
 					<nav class="bg-purplebg px-2 sm:px-4 pt-12">
 						<div class="flex flex-wrap items-center justify-between">
 						<div class="w-full md:block md:w-full text-browntext ml-1 mr-1" id="navbar-default">
-							<ul class="flex flex-col p-2 mt-2 border md:flex-row md:space-x-7 md:mt-0 md:text-base md:font-medium md:border-0">
+							<ul class="flex flex-col p-2 mt-2 md:flex-row md:space-x-7 md:mt-0 md:text-base md:font-medium md:border-0">
 								<li>
-									<a href="http://localhost:5173" class="flex items-center">
+									<a href="/" class="flex items-center">
 									<img src={big_logo} class="h-6 mr-3 sm:h-9" alt="header_big_logo" />
 									</a>
 								</li>
 								<li on:mouseover={activeNavbar} data-target="allProduct">
-									<a href="/tous-les-produits" id="all_products" class="block py-2 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
+									<a href="/list" id="all_products" class="block py-2 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
 								</li>
 								<li class="flex items-center">&nbsp;|&nbsp;</li>
 								<li on:mouseover={activeNavbar} data-target="Promo">
