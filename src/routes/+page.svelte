@@ -65,23 +65,23 @@
 									</a>
 								</li>
 								<li on:mouseover={activeNavbar} data-target="allProduct">
-									<a href="/list" id="all_products" class="block py-2 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
+									<a href="/liste_touslesproduits" id="all_products" class="block py-2 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
 								</li>
 								<li class="flex items-center">&nbsp;|&nbsp;</li>
 								<li on:mouseover={activeNavbar} data-target="Promo">
-									<a href="/promotions" class="block py-2 pl-1 pr-1">PROMOS</a>
+									<a href="/liste_promo" class="block py-2 pl-1 pr-1">PROMOS</a>
 								</li>
 								<li class="flex items-center">&nbsp;|&nbsp;</li>
 								<li>
-									<a href="/catégories/huiles-essentiels" class="block py-2 pl-1 pr-1">HUILES ESSENTIELLES</a>
+									<a href="/liste_huiles" class="block py-2 pl-1 pr-1">HUILES ESSENTIELLES</a>
 								</li>
 								<li class="flex items-center">&nbsp;|&nbsp;</li>
 								<li>
-									<a href="/catégories/cosmétiques" class="block py-2 pl-1 pr-1">COSMÉTIQUES</a>
+									<a href="/liste_cosmetiques" class="block py-2 pl-1 pr-1">COSMÉTIQUES</a>
 								</li>
 								<li class="flex items-center">&nbsp;|&nbsp;</li>
 								<li>
-									<a href="/catégories/maison" class="block py-2 pl-1 pr-1">MAISON</a>
+									<a href="/liste_maison" class="block py-2 pl-1 pr-1">MAISON</a>
 								</li>
 								<li class="flex items-center">&nbsp;|&nbsp;</li>
 								<li>
