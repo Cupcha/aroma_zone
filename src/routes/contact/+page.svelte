@@ -33,7 +33,7 @@
 	
 
 <svelte:head>
-	<title>AROMA-ZONE</title>
+	<title>contact</title>
 	<meta name="liste_touslesproduits" content="List products shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 
@@ -69,7 +69,7 @@
 							</a>
 						</li>
 						<li on:mouseover={activeNavbar} data-target="allProduct">
-							<a href="./src/routes/liste_touslesproduits/+page.svelte" id="all_products" class="block py-2 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
+							<a href="/list" id="all_products" class="block py-2 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
 						</li>
 						<li class="flex items-center">&nbsp;|&nbsp;</li>
 						<li on:mouseover={activeNavbar} data-target="Promo">
