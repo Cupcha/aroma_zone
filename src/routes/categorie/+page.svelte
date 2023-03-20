@@ -100,9 +100,9 @@
 								</picture>
 						</li>
 						<li>
-							<a href="/newsletter" class="header_icon_newsletter">
+							<a href="/contact" class="header_icon_newsletter">
 								<picture>
-									<img class="w-7 py-2" src={contact} alt="Newsletter">
+									<img class="w-7 py-2" src={newsletter} alt="Newsletter">
 								</picture>
 							</a>
 						</li>
