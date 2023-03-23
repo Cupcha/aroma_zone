@@ -172,7 +172,7 @@
 
 	h1 {
 		width: 100%;
-	}
+	} 
 
 	.welcome {
 		display: block;
