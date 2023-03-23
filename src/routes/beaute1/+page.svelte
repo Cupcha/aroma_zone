@@ -127,10 +127,11 @@
 
 		
 	</div>
-
+	
+	<Footerpage></Footerpage>
 </body>
 
-	<Footerpage></Footerpage>
+	
 
 
 
