@@ -86,7 +86,7 @@
 
 </svelte:head>
 
-<body class="home">
+<body class="home font-karla">
 	<Headerpage></Headepage>
 
 	<div id="container" class="bg-gray-200 pt-28">
