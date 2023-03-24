@@ -66,7 +66,7 @@
 
 
 
-<body class="home">
+<body class="home font-karla">
 	<Headerpage></Headerpage>
 
 	<div id="container" class="bg-gray-200">
