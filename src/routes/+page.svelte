@@ -28,11 +28,11 @@
 			</div>
 			<product-list class="md:font-medium max-w-full py-20 sm:py-24 sm:px-6 text-browntext text-center">
 				<div>
-					<h2 class="text-title uppercase font-bold text-4xl mb-4 mt-4">Nos nouveautés</h2>
+					<h2 class="text-title uppercase font-bold text-4xl mb-4 mt-10 md:mt-6">Nos nouveautés</h2>
 				</div>
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3 md:h-auto place-items-center">
 					<div class="bg-white shadow-lg rounded-lg w-100 w-4/5">
-						<a href=" ">
+						<a href="/nutrition4">
 							<img src={Photo_nutrition4} alt="photo1" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
@@ -53,7 +53,7 @@
 					</div>
 
 					<div class="bg-white shadow-lg rounded-lg w-4/5">
-						<a href=" ">
+						<a href="/nutrition7">
 							<img src={Photo_nutrition7} alt="photo1" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
@@ -74,7 +74,7 @@
 					</div>
 
 					<div class="bg-white shadow-lg rounded-lg w-4/5">
-						<a href=" ">
+						<a href="/nutrition5q">
 							<img src={Photo_nutrition5} alt="photo1" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
