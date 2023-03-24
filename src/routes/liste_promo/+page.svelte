@@ -323,6 +323,226 @@
 							</a>
 						</div>
 					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute1">
+							<img src={Photo_beaute1} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute1">
+									<h3 class="text-l text-center font-bold text-lg">
+										Sérum concentré d'acide hyaluronique
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">5.90€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute2">
+							<img src={Photo_beaute2} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute2">
+									<h3 class="text-l text-center font-bold text-lg">
+										Sérum visage concentré acide glycolique 10% & AHA
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">6.30€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute3">
+							<img src={Photo_beaute3} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute3">
+									<h3 class="text-l text-center font-bold text-lg">
+										Sérum cils au ricin bio
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">4.95€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute4">
+							<img src={Photo_beaute4} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute4">
+									<h3 class="text-l text-center font-bold text-lg">
+										Sérum visage concentré vitamine C 10% & astaxanthine
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">6.90€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute5">
+							<img src={Photo_beaute5} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute5">
+									<h3 class="text-l text-center font-bold text-lg">
+										Argile blanche surfine (Kaolin)
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">3.60€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute6">
+							<img src={Photo_beaute6} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute6">
+									<h3 class="text-l text-center font-bold text-lg">
+										Argile verte illite surfine
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">5.05€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute7">
+							<img src={Photo_beaute7} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute7">
+									<h3 class="text-l text-center font-bold text-lg">
+										Beurre végétal de karité (sauvage)
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">3.25€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute8">
+							<img src={Photo_beaute8} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute8">
+									<h3 class="text-l text-center font-bold text-lg">
+										Gel natif d'aloe vera bio
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">3.60€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute9">
+							<img src={Photo_beaute9} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute9">
+									<h3 class="text-l text-center font-bold text-lg">
+										Sel de la mer morte
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">4.70€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
+					
+					<div class="bg-white shadow-lg rounded-lg">
+						<a href="/beaute10">
+							<img src={Photo_beaute10} alt="beaute" class="rounded-t-lg">
+						</a>
+						<div class="p-4">
+							<div class="mb-5">
+								<a href="/beaute10">
+									<h3 class="text-l text-center font-bold text-lg">
+										Vinaigre naturel de fleur de coco bio
+									</h3>
+									<p class="ml-auto text-l font-medium text-center">3.05€</p>
+								</a>
+							</div>
+							<a href=" " class="inline-flex items-center justify-between px-5 py-1 shadow-sm font-medium rounded-md bg-brownbg">
+								<span class="text-white text-lg">
+									Acheter
+								</span>
+								<img src={cart} alt="cart" class="ml-4 h-6 w-6">
+							</a>
+						</div>
+					</div>
 
 				</div>
 			
