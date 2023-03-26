@@ -1,6 +1,6 @@
 <script>
 	import cart from '$lib/images/cart.png';
-	import Huile9 from '$lib/images/Huile9.png';
+	import Beaute8 from '$lib/images/Beaute8.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
 
@@ -24,8 +24,8 @@
 </script>
 
 <svelte:head>
-	<title>huile9</title>
-	<meta name="huile9" content="Huile9 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
+	<title>Beaute8</title>
+	<meta name="beaute8" content="beaute8 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
 
@@ -40,10 +40,10 @@
 		<br>
 		<br>
 		<product-facet>
-			<h1 class="font-bold text-center text-4xl py-7 ">HUILES ESSENTIELLES</h1>
+			<h1 class="font-bold text-center text-4xl py-7 ">BEAUTE</h1>
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Huile essentielle d'Anis Vert</span>
+					<span>Gel natif d'aloe vera bio</span>
 				</div>
 			</div>
 			
@@ -51,7 +51,7 @@
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Huile9} alt="Huile9" class="rounded-t-lg center">
+							<img src={Beaute8} alt="Beaute8" class="rounded-t-lg center">
 						</a>
 						<div class="p-4"></div>
 					</div>
@@ -64,15 +64,14 @@
 									<br>
 									<br>
 									<br>
-										
-									Huile essentielle d'Anis Vert
+									Gel natif d'aloe vera bio
 									</h1>
 									<br>
 
 									<h4 class="text-l text-gray-800   text-justify">
-										Les graines d'Anis sont traditionnellement utilisées pour faciliter la digestion mais aussi pour contribuer au confort féminin. Calmante, son huile essentielle est appréciée pour son odeur anisée puissante.									</h4>
+										Ce gel d'Aloe vera est préparé à partir de jus natif frais, avec une teneur garantie en aloeverose de 1200 mg/L minimum, issu du cœur de l'Aloe vera par simple ajout d'un gélifiant naturel (la gomme xanthane), d'un conservateur naturel, et d'arginine (ajusteur de pH d'origine naturelle) pour en faire une formule adaptée à un usage cosmétique. Ce gel est fabriqué à froid pour préserver sa richesse en mucilages, en vitamines et en éléments nutritifs. Le jus d'aloe vera est connu pour ses multiples propriétés sur la peau… Un véritable trésor de la nature et un must pour tous types de peaux ! Retrouvez les différents ajouts possibles et leurs dosages sur cette fiche conseil.									</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">6.05&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">3.60&euro;</p>
 							</div>
 									<br>
 									<br>
@@ -98,10 +97,7 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> Phénols méthyl éthers : (E)-anéthol (93.08%), (Z) anéthole (0.18%)</li>
-					<li> Sesquiterpènes : gamma-himachalène (1.72%)</li>
-					<li>Esters : 2 méthylbutyrate de pseudoisoeugényle (0.52%)</li>
-					
+					<li> 93% de jus d'Aloe vera natif, 100% pur et naturel de culture biologique, auquel ont été ajoutés un conservateur naturel (composé de : Leuconostoc/radish root ferment filtrate, Aqua), de la gomme xanthane (gélifiant naturel) et de l'arginine (ajusteur de pH), afin d'en faire un gel cosmétique.</li>
 				</h5>
 				<div class="p-4">
 				

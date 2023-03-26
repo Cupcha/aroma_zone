@@ -1,6 +1,6 @@
 <script>
 	import cart from '$lib/images/cart.png';
-	import Huile9 from '$lib/images/Huile9.png';
+	import Beaute9 from '$lib/images/Beaute9.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
 
@@ -24,8 +24,8 @@
 </script>
 
 <svelte:head>
-	<title>huile9</title>
-	<meta name="huile9" content="Huile9 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
+	<title>Beaute9</title>
+	<meta name="beaute9" content="beaute9 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
 
@@ -40,10 +40,10 @@
 		<br>
 		<br>
 		<product-facet>
-			<h1 class="font-bold text-center text-4xl py-7 ">HUILES ESSENTIELLES</h1>
+			<h1 class="font-bold text-center text-4xl py-7 ">BEAUTE</h1>
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Huile essentielle d'Anis Vert</span>
+					<span>Sel de la mer morte</span>
 				</div>
 			</div>
 			
@@ -51,7 +51,7 @@
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Huile9} alt="Huile9" class="rounded-t-lg center">
+							<img src={Beaute9} alt="Beaute9" class="rounded-t-lg center">
 						</a>
 						<div class="p-4"></div>
 					</div>
@@ -64,15 +64,14 @@
 									<br>
 									<br>
 									<br>
-										
-									Huile essentielle d'Anis Vert
+									Sel de la mer morte
 									</h1>
 									<br>
 
 									<h4 class="text-l text-gray-800   text-justify">
-										Les graines d'Anis sont traditionnellement utilisées pour faciliter la digestion mais aussi pour contribuer au confort féminin. Calmante, son huile essentielle est appréciée pour son odeur anisée puissante.									</h4>
+										Non raffiné, ce sel est riche en plus de 20 sels minéraux. Apaisant, il est traditionnellement utilisé pour calmer les peaux à tendance atopique ou sujettes à inconfort. Il est idéal pour préparer des sels de bain.									</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">6.05&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">4.70&euro;</p>
 							</div>
 									<br>
 									<br>
@@ -98,10 +97,8 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> Phénols méthyl éthers : (E)-anéthol (93.08%), (Z) anéthole (0.18%)</li>
-					<li> Sesquiterpènes : gamma-himachalène (1.72%)</li>
-					<li>Esters : 2 méthylbutyrate de pseudoisoeugényle (0.52%)</li>
-					
+					<li> Sel naturel de la mer Morte, ayant une concentration très élevée en sels minéraux :
+						Potassium (120 000 mg/l), Magnésium  (85 000 mg/l), Chlore (38 000 mg/l), Sodium (23 000 mg/l), Calcium (22 000 mg/l), Brome (5600 mg/l), Carbonate, Chrome, Phosphore, Fer...</li>
 				</h5>
 				<div class="p-4">
 				

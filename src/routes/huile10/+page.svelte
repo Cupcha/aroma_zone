@@ -1,6 +1,6 @@
 <script>
 	import cart from '$lib/images/cart.png';
-	import Huile9 from '$lib/images/Huile9.png';
+	import Huile7 from '$lib/images/Huile7.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
 
@@ -24,8 +24,8 @@
 </script>
 
 <svelte:head>
-	<title>huile9</title>
-	<meta name="huile9" content="Huile9 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
+	<title>huile7</title>
+	<meta name="huile7" content="Huile7 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
 
@@ -43,7 +43,7 @@
 			<h1 class="font-bold text-center text-4xl py-7 ">HUILES ESSENTIELLES</h1>
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Huile essentielle d'Anis Vert</span>
+					<span>Huile essentielle d'Aneth Odorant Bio</span>
 				</div>
 			</div>
 			
@@ -51,7 +51,7 @@
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Huile9} alt="Huile9" class="rounded-t-lg center">
+							<img src={Huile7} alt="Huile7" class="rounded-t-lg center">
 						</a>
 						<div class="p-4"></div>
 					</div>
@@ -65,14 +65,14 @@
 									<br>
 									<br>
 										
-									Huile essentielle d'Anis Vert
+									Huile essentielle d'Aneth Odorant Bio
 									</h1>
 									<br>
 
 									<h4 class="text-l text-gray-800   text-justify">
-										Les graines d'Anis sont traditionnellement utilisées pour faciliter la digestion mais aussi pour contribuer au confort féminin. Calmante, son huile essentielle est appréciée pour son odeur anisée puissante.									</h4>
+										Dans l'Antiquité, l'Aneth était traditionnellement connu comme stimulant du système digestif et réputé pour soulager les ballonnements et gaz. Son huile essentielle au parfum anisé intense est appréciée à petite dose pour aromatiser les plats.									</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">6.05&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">4.90&euro;</p>
 							</div>
 									<br>
 									<br>
@@ -98,10 +98,8 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> Phénols méthyl éthers : (E)-anéthol (93.08%), (Z) anéthole (0.18%)</li>
-					<li> Sesquiterpènes : gamma-himachalène (1.72%)</li>
-					<li>Esters : 2 méthylbutyrate de pseudoisoeugényle (0.52%)</li>
-					
+					<li> Monoterpénones : carvone (28.24%)</li>
+					<li> Monoterpènes : limonène (20.70%)</li>
 				</h5>
 				<div class="p-4">
 				

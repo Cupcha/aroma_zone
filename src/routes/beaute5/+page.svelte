@@ -1,6 +1,6 @@
 <script>
 	import cart from '$lib/images/cart.png';
-	import Huile9 from '$lib/images/Huile9.png';
+	import Beaute5 from '$lib/images/Beaute5.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
 
@@ -24,8 +24,8 @@
 </script>
 
 <svelte:head>
-	<title>huile9</title>
-	<meta name="huile9" content="Huile9 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
+	<title>Beaute5</title>
+	<meta name="beaute5" content="beaute5 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
 
@@ -40,10 +40,10 @@
 		<br>
 		<br>
 		<product-facet>
-			<h1 class="font-bold text-center text-4xl py-7 ">HUILES ESSENTIELLES</h1>
+			<h1 class="font-bold text-center text-4xl py-7 ">BEAUTE</h1>
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Huile essentielle d'Anis Vert</span>
+					<span>Argile blanche surfine (Kaolin)</span>
 				</div>
 			</div>
 			
@@ -51,7 +51,7 @@
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Huile9} alt="Huile9" class="rounded-t-lg center">
+							<img src={Beaute5} alt="Beaute5" class="rounded-t-lg center">
 						</a>
 						<div class="p-4"></div>
 					</div>
@@ -64,15 +64,14 @@
 									<br>
 									<br>
 									<br>
-										
-									Huile essentielle d'Anis Vert
+									Argile blanche surfine (Kaolin)
 									</h1>
 									<br>
 
 									<h4 class="text-l text-gray-800   text-justify">
-										Les graines d'Anis sont traditionnellement utilisées pour faciliter la digestion mais aussi pour contribuer au confort féminin. Calmante, son huile essentielle est appréciée pour son odeur anisée puissante.									</h4>
+										L'argile blanche, aussi appelée kaolin, est riche en silice. Son nom provient de la ville chinoise de Kao-Ling (terre des hautes collines), où elle a été découverte. Notre argile blanche surfine est extraite de carrières françaises et simplement séchée et broyée, de façon à en conserver toute la richesse en minéraux et les propriétés. Les vertus de l'argile blanche sont nombreuses et ses applications multiples, ce qui en fait un ingrédient indispensable pour vos préparations cosmétiques. Elle est idéale pour préparer des masques et des soins purifiants et assainissants pour les peaux sèches et délicates.									</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">6.05&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">3.60&euro;</p>
 							</div>
 									<br>
 									<br>
@@ -98,10 +97,7 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> Phénols méthyl éthers : (E)-anéthol (93.08%), (Z) anéthole (0.18%)</li>
-					<li> Sesquiterpènes : gamma-himachalène (1.72%)</li>
-					<li>Esters : 2 méthylbutyrate de pseudoisoeugényle (0.52%)</li>
-					
+					<li>Silicate d’aluminium hydraté (Kaolin) </li>
 				</h5>
 				<div class="p-4">
 				
