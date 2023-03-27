@@ -5,23 +5,6 @@
 	import Footerpage from '../Footerpage.svelte';
 	import supabase from '../supabase.js';
 
-	function navbar (){
-		// @ts-ignore
-		document.getElementById("menu").style.display="block";
-    }
-	function closeNavBar (){
-		// @ts-ignore
-		document.getElementById("menu").style.display="none";
-    }
-	// @ts-ignore
-	function activeNavbar(e){
-		// @ts-ignore
-		document.querySelectorAll(".menu-entry").forEach(e=>e.style.display="none");
-		let target = e.currentTarget.getAttribute("data-target");
-		// @ts-ignore
-		document.getElementById(target).style.display="block";
-	}
-
 	async function getData() {
 		const { data, error } = await supabase
 		.from('Maison')
@@ -89,6 +72,3 @@
 	<Footerpage></Footerpage>
 
 </body>
-
-<style>
-</style>

@@ -3,24 +3,6 @@
 	import Huile4 from '$lib/images/Huile4.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
-
-
-	function navbar (){
-		// @ts-ignore
-		document.getElementById("menu").style.display="block";
-    }
-	function closeNavBar (){
-		// @ts-ignore
-		document.getElementById("menu").style.display="none";
-    }
-	// @ts-ignore
-	function activeNavbar(e){
-		// @ts-ignore
-		document.querySelectorAll(".menu-entry").forEach(e=>e.style.display="none");
-		let target = e.currentTarget.getAttribute("data-target");
-		// @ts-ignore
-		document.getElementById(target).style.display="block";
-	}
 </script>
 
 <svelte:head>
@@ -28,8 +10,6 @@
 	<meta name="huile4" content="Huile4 shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
-
-
 
 <body class=" home font-karla text-lg">
 	<Headerpage></Headerpage>
