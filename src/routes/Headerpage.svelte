@@ -117,7 +117,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="/panier" class="header_icon_cart">
+							<a href="https://www.aroma-zone.com/checkout/cart/" class="header_icon_cart">
 								<picture>
 									<img class="w-6 pt-4" src={cart} alt="Panier">
 								</picture>
