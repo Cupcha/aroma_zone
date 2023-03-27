@@ -4,7 +4,7 @@
 	import search from '$lib/images/search.png';
 	import account from '$lib/images/account.png';
 	import cart from '$lib/images/cart.png';
-	import Maison10 from '$lib/images/Maison10.png';
+	import Maison2 from '$lib/images/Maison2.png';
 	import newsletter from '$lib/images/newsletter.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
@@ -13,7 +13,7 @@
 	
 
 <svelte:head>
-	<title>maison10</title>
+	<title>maison2</title>
 	<meta name="liste_touslesproduits" content="List products shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 
@@ -35,17 +35,16 @@
 			
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Argile Multani Mitti</span>
+					<span>Argile Verte Illite Surfine</span>
 				</div>
 			</div>
 			
 			<product-list class="flex">
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
-					
-					<div class="bg-white shadow-lg rounded-lg">
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Maison10} alt="Maison10" class="rounded-t-lg center">
+							<img src={Maison2} alt="Maison2" class="rounded-t-lg center">
 						</a>
 						<div class="p-4">
 						
@@ -62,16 +61,16 @@
 									<h1 class="text-l text-gray-900 font-bold text-center text-xl">
 									<br>
 									<br>
-									<br>	
-									Argile Multani Mitti
+									<br>
+										
+									Argile Verte Illite Surfine
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
-										Cette argile indienne s'utilise en association avec des poudres de plantes pour nettoyer et purifier la peau et les cheveux. Elle fait merveille notamment pour préparer des masques aux poudres ayurvédiques, ou des shampooing pâte "no poo". Particulièrement appréciée par les peaux et cheveux gras, elle élimine en douceur les impuretés et cellules mortes.
-Elle est aussi connue sous le nom de terre à foulon et peut s'utiliser comme produit ménager écologique pour absorber les taches de gras ou préparer une "pierre d'argile".</h4>
+									<h4 class="text-l text-gray-800  text-justify ">
+										L'argile verte est la plus populaire et la plus absorbante des argiles. De la famille des illites, cette argile est connue aussi bien pour ses bienfaits sur la peau et les cheveux que pour ses propriétés en santé et usage domestique. Elle nettoie et purifie les peaux mixtes, grasses et à imperfections, purifie le cuir chevelu et lutte contre l’excès de sébum des cheveux gras. Elle est idéale pour préparer des masques, cataplasmes, et enveloppements pour le bien-être. Cette argile figure parmi les indispensables du quotidien !									</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">3,05&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">5,05&euro;</p>
 							</div>
 							<br>
 									<br>
@@ -97,7 +96,7 @@ Elle est aussi connue sous le nom de terre à foulon et peut s'utiliser comme pr
 				<h5>
 					Composition : 
 					<br>
-					<li>Extraction de terres argileuses naturelles, 100% d'origine naturelle, non ionisée</li>
+					<li> Silicate d’aluminium hydraté</li>
 					
 					
 				</h5>

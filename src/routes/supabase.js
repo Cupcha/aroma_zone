@@ -7,5 +7,4 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey );
 
 
 export default supabase;
-
 // npm install @supabase/supabase-js 

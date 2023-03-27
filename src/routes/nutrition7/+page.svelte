@@ -43,7 +43,8 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
-					<div class="bg-white shadow-lg rounded-lg">
+
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Nutrition7} alt="Nutrition7" class="rounded-t-lg center">
 						</a>
@@ -68,7 +69,8 @@
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
+
+									<h4 class="text-l text-gray-800  text-justify">
 										Hautement dosé en Vitamine D3 d'origine naturelle et vegan, ce complément alimentaire est conseillé notamment pour soutenir l'immunité et préserver le capital osseux. Connue comme la "vitamine du soleil", la vitamine D est particulièrement recommandée lorsque l'exposition au soleil est limitée. Cette vitamine D issue d'algues est proposée sous la forme D3, la mieux assimilée par l'organisme, et présentée sous forme d'huile au goût neutre, à doser en gouttes pour une prise très facile et sans additifs inutiles ! </h4>
 								</a>
 								<p class="ml-auto text-l font-medium text-gray-800">9,90&euro;</p>

@@ -1,11 +1,6 @@
 <script>
-	import small_logo from '$lib/images/small_logo_2.png';
-	import big_logo from '$lib/images/big_logo.png';
-	import search from '$lib/images/search.png';
-	import account from '$lib/images/account.png';
 	import cart from '$lib/images/cart.png';
-	import Nutrition3 from '$lib/images/Nutrition3.png';
-	import newsletter from '$lib/images/newsletter.png';
+	import Nutrition4 from '$lib/images/Nutrition4.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
 </script>
@@ -13,7 +8,7 @@
 	
 
 <svelte:head>
-	<title>nutrition3</title>
+	<title>nutrition4</title>
 	<meta name="liste_touslesproduits" content="List products shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 
@@ -23,7 +18,6 @@
 
 <body class="home font-karla">
 	<Headerpage></Headerpage>
-
 	<div id="container" class="bg-gray-200">
 		<br>
 									<br>
@@ -35,7 +29,7 @@
 			
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Huile CBD 32%</span>
+					<span>Charbon actif végétal en gélules - complément alimentaire 120 gélules</span>
 				</div>
 			</div>
 			
@@ -43,9 +37,9 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
-					<div class="bg-white shadow-lg rounded-lg">
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Nutrition3} alt="Nutrition3" class="rounded-t-lg center">
+							<img src={Nutrition4} alt="Nutrition4" class="rounded-t-lg center">
 						</a>
 						<div class="p-4">
 						
@@ -64,14 +58,14 @@
 									<br>
 									<br>
 										
-									Huile CBD 32%
+									Charbon actif végétal en gélules - complément alimentaire 120 gélules
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
-										Puissante, cette huile de CBD  contient 32% de Cannabidiol naturel sur huile de chanvre BIO française, sans ajout d'isolat ni CBD de synthèse : une huile de CBD 100% naturelle et 100% chanvre, pour un effet d'entourage optimal. Grâce à sa forte teneur en Cannabidiol, cette huile CBD 32% a une efficacité maximale, elle est idéale pour apaiser les tensions physiques et nerveuses et soulager les esprits surmenés. Cette huile CBD 32% est dite "à spectre large" ou "broad spectrum", car elle contient tous les cannabinoïdes (sauf le THC) et terpènes du chanvre, créant une synergie d'action où les autres actifs renforcent les effets bénéfiques du CBD. Notre huile CBD 32% s'adresse aux consommateurs déjà initiés à notre huile CBD 12% et désireux d'une action plus puissante. Une huile de CBD forte concentration, analysée à chaque lot et de haute qualité !									</h4>
+									<h4 class="text-l text-gray-800  text-justify ">
+										Certifié BIO et produit de façon éco-responsable, ce Charbon actif végétal en gélules est issu de forêts de châtaigniers françaises gérées durablement et activé à la vapeur d’eau sans agent chimique. Grâce à son ultra-microporosité très développée et à sa surface d’absorption élevée, ce Charbon végétal activé de châtaignier est particulièrement adapté pour absorber les gaz intestinaux. Allié du confort digestif et réputé pour ses vertus détoxifiantes, ce Charbon actif végétal 100% français s’utilise comme complément alimentaire naturel pour réduire les ballonnements et flatulences après les repas.									</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">37,95&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">9,90&euro;</p>
 							</div>
 							<br>
 									<br>
@@ -97,9 +91,9 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> Cannabis sativa seed oil* (huile de graines de chanvre BIO), Cannabis sativa flower extract (extrait de fleurs de chanvre concentré en CBD).</li>
+					<li> charbon actif végétal de Châtaignier*, envelope de la gélule: hydroxypropylméthylcellulose</li>
 					
-					
+				
 				</h5>
 				<div class="p-4">
 				
@@ -109,5 +103,5 @@
 
 		
 	</div>
-	<Footerpage></Footerpage>
 </body>
+<Footerpage></Footerpage>

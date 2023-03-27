@@ -1,6 +1,7 @@
 <script>
 	import cart from '$lib/images/cart.png';
-	import Nutrition4 from '$lib/images/Nutrition4.png';
+	import Nutrition5 from '$lib/images/Nutrition5.png';
+	import newsletter from '$lib/images/newsletter.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
 </script>
@@ -8,7 +9,7 @@
 	
 
 <svelte:head>
-	<title>nutrition4</title>
+	<title>nutrition5</title>
 	<meta name="liste_touslesproduits" content="List products shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 
@@ -29,7 +30,7 @@
 			
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Charbon actif végétal en gélules - complément alimentaire 120 gélules</span>
+					<span>Complément alimentaire magnésium triple - 120 gélules</span>
 				</div>
 			</div>
 			
@@ -37,9 +38,9 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
-					<div class="bg-white shadow-lg rounded-lg">
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Nutrition4} alt="Nutrition4" class="rounded-t-lg center">
+							<img src={Nutrition5} alt="Nutrition5" class="rounded-t-lg center">
 						</a>
 						<div class="p-4">
 						
@@ -58,14 +59,14 @@
 									<br>
 									<br>
 										
-									Charbon actif végétal en gélules - complément alimentaire 120 gélules
+									Complément alimentaire magnésium triple - 120 gélules
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
-										Certifié BIO et produit de façon éco-responsable, ce Charbon actif végétal en gélules est issu de forêts de châtaigniers françaises gérées durablement et activé à la vapeur d’eau sans agent chimique. Grâce à son ultra-microporosité très développée et à sa surface d’absorption élevée, ce Charbon végétal activé de châtaignier est particulièrement adapté pour absorber les gaz intestinaux. Allié du confort digestif et réputé pour ses vertus détoxifiantes, ce Charbon actif végétal 100% français s’utilise comme complément alimentaire naturel pour réduire les ballonnements et flatulences après les repas.									</h4>
+									<h4 class="text-l text-gray-800  text-justify ">
+										Ce complément alimentaire associe 3 formes de magnésium pour une efficacité optimale en cumulant haute biodisponibilité et teneur élevée en magnésium : Bisglycinate de Magnésium, Magnésium marin et extrait de Laitue de mer BIO. Conseillé en cas de fatigue, stress, ainsi que pour la récupération musculaire, le magnésium contribue à la réduction de la fatigue et au bon fonctionnement du système nerveux, favorise une fonction musculaire et une synthèse protéique normale et participe à la santé osseuse. C'est aussi un supplément incontournable chez les sportifs, dont les besoins en magnésium sont accrus. La prise de 3 gélules par jour couvre les besoins quotidiens en magnésium.</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">9,90&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">14,90&euro;</p>
 							</div>
 							<br>
 									<br>
@@ -91,7 +92,7 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> charbon actif végétal de Châtaignier*, envelope de la gélule: hydroxypropylméthylcellulose</li>
+					<li> bisglycinate de magnésium, hydroxyde de magnésium (marin), enveloppe de la gélule : hydroxypropylméthylcellulose, extrait de thalle de laitue de mer Ulva lactuca, amidon de maïs.</li>
 					
 				
 				</h5>
@@ -103,6 +104,5 @@
 
 		
 	</div>
-
+	<Footerpage></Footerpage>
 </body>
-<Footerpage></Footerpage>

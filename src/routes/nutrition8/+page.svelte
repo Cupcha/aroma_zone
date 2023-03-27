@@ -43,7 +43,8 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
-					<div class="bg-white shadow-lg rounded-lg">
+
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Nutrition8} alt="Nutrition8" class="rounded-t-lg center">
 						</a>
@@ -67,7 +68,8 @@
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
+
+									<h4 class="text-l text-gray-800  text-justify">
 										Épice aux mille vertus, la poudre de Curcuma est incontournable dans la tradition ayurvédique et aujourd’hui bien connue pour ses nombreux bienfaits et sa richesse en actifs anti-inflammatoires et antioxydants. Sourcée éthiquement auprès de petits producteurs du sud de l’Inde, cette poudre de Curcuma BIO de haute qualité réhaussera idéalement vos plats grâce à sa saveur caractéristique et à sa magnifique couleur dorée. Allié par excellence des régimes anti-inflammatoires grâce à sa teneur en curcuminoïdes, ce super aliment favorise une bonne digestion. Idéale en cuisine, la poudre de Curcuma s’ajoute facilement à vos boissons bien-être telles que le lait d’or, pour une alimentation saine et antioxydante !</h4>
 								</a>
 								<p class="ml-auto text-l font-medium text-gray-800">3,95&euro;</p>

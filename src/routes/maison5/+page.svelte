@@ -4,7 +4,7 @@
 	import search from '$lib/images/search.png';
 	import account from '$lib/images/account.png';
 	import cart from '$lib/images/cart.png';
-	import Maison5 from '$lib/images/Maison5.png';
+	import Maison10 from '$lib/images/Maison10.png';
 	import newsletter from '$lib/images/newsletter.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
@@ -13,7 +13,7 @@
 	
 
 <svelte:head>
-	<title>maison5</title>
+	<title>maison10</title>
 	<meta name="liste_touslesproduits" content="List products shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 
@@ -35,7 +35,7 @@
 			
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Chlorophylle Liquide</span>
+					<span>Argile Multani Mitti</span>
 				</div>
 			</div>
 			
@@ -43,9 +43,9 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
-					<div class="bg-white shadow-lg rounded-lg">
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Maison5} alt="Maison5" class="rounded-t-lg center">
+							<img src={Maison10} alt="Maison10" class="rounded-t-lg center">
 						</a>
 						<div class="p-4">
 						
@@ -63,14 +63,15 @@
 									<br>
 									<br>
 									<br>	
-									Chlorophylle Liquide
+									Argile Multani Mitti
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
-										Désormais proposé sous forme liquide, ce précieux pigment vert extrait de graminées naturelles est facile à incorporer aux phases aqueuses. Son pouvoir colorant très puissant permet d'obtenir de magnifiques teintes vertes dans les lotions, gels, produits moussants, crèmes et laits. La chlorophylle est aussi connue pour limiter les problèmes d'odeurs corporelles.</h4>
+									<h4 class="text-l text-gray-800  text-justify">
+										Cette argile indienne s'utilise en association avec des poudres de plantes pour nettoyer et purifier la peau et les cheveux. Elle fait merveille notamment pour préparer des masques aux poudres ayurvédiques, ou des shampooing pâte "no poo". Particulièrement appréciée par les peaux et cheveux gras, elle élimine en douceur les impuretés et cellules mortes.
+Elle est aussi connue sous le nom de terre à foulon et peut s'utiliser comme produit ménager écologique pour absorber les taches de gras ou préparer une "pierre d'argile".</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">1,95&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">3,05&euro;</p>
 							</div>
 							<br>
 									<br>
@@ -96,7 +97,7 @@
 				<h5>
 					Composition : 
 					<br>
-					<li>Glycérine, eau, complexe de chlorophylle cuivrique</li>
+					<li>Extraction de terres argileuses naturelles, 100% d'origine naturelle, non ionisée</li>
 					
 					
 				</h5>

@@ -6,7 +6,6 @@
 	import cart from '$lib/images/cart.png';
 	import newsletter from '$lib/images/newsletter.png';
 	let open = false;
-
 	function toggle() {
 		open = !open;
 	}
@@ -50,8 +49,8 @@
 							<a href="/liste_touslesproduits" id="all_products" class="block py-1 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-1">&nbsp;|&nbsp;</li>
-						<li class="md:flex items-center md:pl-1" data-target="Promo">
-							<a href="/liste_promo" class="block py-1 pl-1 pr-1">PROMOS</a>
+						<li class="md:flex items-center md:pl-1" data-target="Nutrition">
+							<a href="/liste_promo" class="block py-1 pl-1 pr-1">PROMOTIONS</a>
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-1">&nbsp;|&nbsp;</li>
 						<li class="md:flex items-center md:pl-1">
@@ -89,6 +88,7 @@
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-3">
 							<a href="https://www.aroma-zone.com/checkout/cart/" class="header_icon_cart">
+							<a href="/cart" class="header_icon_cart">
 								<picture>
 									<img class="w-6" src={cart} alt="Panier">
 								</picture>

@@ -4,7 +4,7 @@
 	import search from '$lib/images/search.png';
 	import account from '$lib/images/account.png';
 	import cart from '$lib/images/cart.png';
-	import Nutrition5 from '$lib/images/Nutrition5.png';
+	import Nutrition6 from '$lib/images/Nutrition6.png';
 	import newsletter from '$lib/images/newsletter.png';
 	import Headerpage from '../Headerpage.svelte';
 	import Footerpage from '../Footerpage.svelte';
@@ -13,7 +13,7 @@
 	
 
 <svelte:head>
-	<title>nutrition5</title>
+	<title>nutrition6</title>
 	<meta name="liste_touslesproduits" content="List products shop Aroma-zone IE=edge width=device-width initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
 
@@ -35,17 +35,16 @@
 			
 			<div id="facet-main">
 				<div id="nb-products" class="text-center text-xl">
-					<span>Complément alimentaire magnésium triple - 120 gélules</span>
+					<span>Complément alimentaire spiruline de France bio - 120 comprimés</span>
 				</div>
 			</div>
 			
 			<product-list class="flex">
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
-					
-					<div class="bg-white shadow-lg rounded-lg">
+					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
-							<img src={Nutrition5} alt="Nutrition5" class="rounded-t-lg center">
+							<img src={Nutrition6} alt="Nutrition6" class="rounded-t-lg center">
 						</a>
 						<div class="p-4">
 						
@@ -63,15 +62,14 @@
 									<br>
 									<br>
 									<br>
-										
-									Complément alimentaire magnésium triple - 120 gélules
+									Complément alimentaire spiruline de France bio - 120 comprimés
 									</h1>
 									<br>
 
-									<h4 class="text-l text-gray-800  text-center ">
-										Ce complément alimentaire associe 3 formes de magnésium pour une efficacité optimale en cumulant haute biodisponibilité et teneur élevée en magnésium : Bisglycinate de Magnésium, Magnésium marin et extrait de Laitue de mer BIO. Conseillé en cas de fatigue, stress, ainsi que pour la récupération musculaire, le magnésium contribue à la réduction de la fatigue et au bon fonctionnement du système nerveux, favorise une fonction musculaire et une synthèse protéique normale et participe à la santé osseuse. C'est aussi un supplément incontournable chez les sportifs, dont les besoins en magnésium sont accrus. La prise de 3 gélules par jour couvre les besoins quotidiens en magnésium.</h4>
+									<h4 class="text-l text-gray-800  text-justify">
+										Cultivée en France et compressée à froid sans additif, cette Spiruline BIO de haute qualité se distingue par sa richesse nutritionnelle et sa teneur exceptionnelle en phycocyanine. Elle est présentée sous forme de comprimés faciles à avaler pour une prise au quotidien comme complément alimentaire. Idéale en cas de fatigue passagère ou pour compléter les apports nutritionnels chez les végétariens, la Spiruline est également réputée pour ses bienfaits sur la beauté des cheveux. Une précieuse alliée vitalité et beauté !</h4>
 								</a>
-								<p class="ml-auto text-l font-medium text-gray-800">14,90&euro;</p>
+								<p class="ml-auto text-l font-medium text-gray-800">15,95&euro;</p>
 							</div>
 							<br>
 									<br>
@@ -97,7 +95,9 @@
 				<h5>
 					Composition : 
 					<br>
-					<li> bisglycinate de magnésium, hydroxyde de magnésium (marin), enveloppe de la gélule : hydroxypropylméthylcellulose, extrait de thalle de laitue de mer Ulva lactuca, amidon de maïs.</li>
+
+					<li> 100% Spiruline* (Arthrospira platensis)
+                        *Ingrédient issu de l’Agriculture Biologique. Produit issu de l’Agriculture Biologique, certifié par FR-BIO-10.</li>
 					
 				
 				</h5>
