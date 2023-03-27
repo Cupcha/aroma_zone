@@ -1,8 +1,8 @@
 <script>
 	import caroussel_2 from '$lib/images/caroussel_2.webp';
 	import Nutrition4 from '$lib/images/Nutrition4.png';
-	import Nutrition5 from '$lib/images/Nutrition5.jpeg';
-	import Nutrition7 from '$lib/images/Nutrition7.jpeg';
+	import Nutrition5 from '$lib/images/Nutrition5.png';
+	import Nutrition7 from '$lib/images/Nutrition7.png';
 	import Headerpage from './Headerpage.svelte';
 	import Footerpage from './Footerpage.svelte';
 </script>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3 md:h-auto place-items-center">
 					<div class="bg-white shadow-lg rounded-lg w-100 w-4/5">
-						<a href="/nutrition4">
+						<a href="/nutrition3">
 							<img src={Nutrition4} alt="photo1" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
@@ -73,7 +73,7 @@
 					</div>
 
 					<div class="bg-white shadow-lg rounded-lg w-4/5">
-						<a href="/nutrition5">
+						<a href="/nutrition4">
 							<img src={Nutrition5} alt="photo3" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
