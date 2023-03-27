@@ -1,9 +1,8 @@
 <script>
-	import small_logo from '$lib/images/small_logo_2.png';
 	import caroussel_2 from '$lib/images/caroussel_2.webp';
-	import Photo_nutrition4 from '$lib/images/Photo_nutrition4.jpeg';
-	import Photo_nutrition5 from '$lib/images/Photo_nutrition5.jpeg';
-	import Photo_nutrition7 from '$lib/images/Photo_nutrition7.jpeg';
+	import Nutrition4 from '$lib/images/Nutrition4.png';
+	import Nutrition5 from '$lib/images/Nutrition5.jpeg';
+	import Nutrition7 from '$lib/images/Nutrition7.jpeg';
 	import Headerpage from './Headerpage.svelte';
 	import Footerpage from './Footerpage.svelte';
 </script>
@@ -14,7 +13,7 @@
 </svelte:head>
 
 
-<body class="home">
+<body class="home font-karla text-lg">
 		<Headerpage></Headerpage>
 		<section id="main">
 			<div class="pt-28">
@@ -28,12 +27,12 @@
 			</div>
 			<product-list class="md:font-medium max-w-full py-20 sm:py-24 sm:px-6 text-browntext text-center">
 				<div>
-					<h2 class="text-title uppercase font-bold text-4xl mb-4 mt-4">Nos nouveautés</h2>
+					<h2 class="text-title uppercase font-bold text-4xl mb-4 mt-10 md:mt-6">Nos nouveautés</h2>
 				</div>
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3 md:h-auto place-items-center">
 					<div class="bg-white shadow-lg rounded-lg w-100 w-4/5">
-						<a href=" ">
-							<img src={Photo_nutrition4} alt="photo1" class="rounded-t-lg">
+						<a href="/nutrition4">
+							<img src={Nutrition4} alt="photo1" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
 							<div class="mb-5">
@@ -53,8 +52,8 @@
 					</div>
 
 					<div class="bg-white shadow-lg rounded-lg w-4/5">
-						<a href=" ">
-							<img src={Photo_nutrition7} alt="photo1" class="rounded-t-lg">
+						<a href="/nutrition7">
+							<img src={Nutrition7} alt="photo2" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
 							<div class="mb-5">
@@ -74,8 +73,8 @@
 					</div>
 
 					<div class="bg-white shadow-lg rounded-lg w-4/5">
-						<a href=" ">
-							<img src={Photo_nutrition5} alt="photo1" class="rounded-t-lg">
+						<a href="/nutrition5">
+							<img src={Nutrition5} alt="photo3" class="rounded-t-lg">
 						</a>
 						<div class="p-4">
 							<div class=" mb-5">
@@ -150,60 +149,3 @@
 		</section>
 		<Footerpage></Footerpage>
 </body>
-
-
-  
-<!-- 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section> -->
-
-<style>
-	/* section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	} */
-</style>
