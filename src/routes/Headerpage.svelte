@@ -5,12 +5,12 @@
 	import account from '$lib/images/account.png';
 	import cart from '$lib/images/cart.png';
 	import newsletter from '$lib/images/newsletter.png';
+	import "../app.postcss";
 	let open = false;
+
 	function toggle() {
 		open = !open;
 	}
-	import "../app.postcss";
- 	import "./styles.css";
 </script>
 
 <header class="fixed w-full z-1 h-12">
@@ -28,7 +28,6 @@
 			</a>
 		</div>
 	</div>
-	<!-- svelte-ignore a11y-mouse-events-have-key-events -->
 	<div class="">
 		<nav class="bg-purplebg px-1 pt-12">
 			<div class="flex flex-wrap items-center justify-between">
@@ -39,7 +38,7 @@
 					<a href="/" id="big_logo" class="inline-flex items-center md:hidden">
 						<img src={big_logo} class="w-32" alt="header_big_logo" />
 					</a>
-					<ul class="md:flex flex-col md:flex-row md:space-x-7 md:mt-0 pt-1 md:pt-2 md:text-base md:font-medium md:border-0 {open ? '' : 'hidden'} md:inline-flex">
+					<ul class="md:flex flex-col md:flex-row md:space-x-6 md:mt-0 pt-1 md:pt-2 md:text-base md:font-medium md:border-0 {open ? '' : 'hidden'} md:inline-flex">
 						<li class="md:flex items-center hidden md:visible">
 							<a href="/" id="big_logo" class="md:flex items-center">
 								<img src={big_logo} class="w-32 md:w-40 lg:w-52 md:ml-1" alt="header_big_logo" />
@@ -49,8 +48,8 @@
 							<a href="/liste_touslesproduits" id="all_products" class="block py-1 pl-1 pr-1" aria-current="page">TOUS LES PRODUITS</a>
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-1">&nbsp;|&nbsp;</li>
-						<li class="md:flex items-center md:pl-1" data-target="Nutrition">
-							<a href="/liste_promo" class="block py-1 pl-1 pr-1">PROMOTIONS</a>
+						<li class="md:flex items-center md:pl-1" data-target="Promo">
+							<a href="/liste_promo" class="block py-1 pl-1 pr-1">PROMOS</a>
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-1">&nbsp;|&nbsp;</li>
 						<li class="md:flex items-center md:pl-1">
@@ -87,7 +86,6 @@
 							</a>
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-3">
-							<a href="https://www.aroma-zone.com/checkout/cart/" class="header_icon_cart">
 							<a href="/cart" class="header_icon_cart">
 								<picture>
 									<img class="w-6" src={cart} alt="Panier">
