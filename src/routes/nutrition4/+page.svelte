@@ -1,8 +1,4 @@
 <script>
-	import small_logo from '$lib/images/small_logo_2.png';
-	import big_logo from '$lib/images/big_logo.png';
-	import search from '$lib/images/search.png';
-	import account from '$lib/images/account.png';
 	import cart from '$lib/images/cart.png';
 	import Nutrition5 from '$lib/images/Nutrition5.png';
 	import newsletter from '$lib/images/newsletter.png';
@@ -23,7 +19,6 @@
 
 <body class="home font-karla">
 	<Headerpage></Headerpage>
-
 	<div id="container" class="bg-gray-200">
 		<br>
 									<br>

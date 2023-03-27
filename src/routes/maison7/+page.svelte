@@ -67,6 +67,7 @@
 									</h1>
 									<br>
 
+
 									<h4 class="text-l text-gray-800  text-justify">
 										Obtenue par lyophilisation sans additif, cette poudre concentre toutes les vertus du lait de coco. Riche en acides gras, minéraux et vitamines, il apporte douceur, brillance et nutrition aux cheveux abîmés et revitalise tous types de peaux. Sa délicate odeur de coco est une invitation au voyage et son goût crémeux authentique sublime les plats exotiques et desserts.</h4>
 								</a>

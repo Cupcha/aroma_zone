@@ -42,7 +42,6 @@
 			<product-list class="flex">
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
-					
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Nutrition6} alt="Nutrition6" class="rounded-t-lg center">
@@ -63,7 +62,6 @@
 									<br>
 									<br>
 									<br>
-										
 									Complément alimentaire spiruline de France bio - 120 comprimés
 									</h1>
 									<br>
@@ -97,6 +95,7 @@
 				<h5>
 					Composition : 
 					<br>
+
 					<li> 100% Spiruline* (Arthrospira platensis)
                         *Ingrédient issu de l’Agriculture Biologique. Produit issu de l’Agriculture Biologique, certifié par FR-BIO-10.</li>
 					

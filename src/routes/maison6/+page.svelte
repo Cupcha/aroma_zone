@@ -43,6 +43,7 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
+
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Maison3} alt="Maison3" class="rounded-t-lg center">

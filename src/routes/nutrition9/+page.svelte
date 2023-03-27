@@ -43,6 +43,7 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
+
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Nutrition9} alt="Nutrition9" class="rounded-t-lg center">
@@ -66,6 +67,7 @@
 									Poudre de thé vert matcha du Japon bio
 									</h1>
 									<br>
+
 
 									<h4 class="text-l text-gray-800  text-justify ">
 										Doté d’une superbe couleur verte et d’un goût végétal herbacé, ce thé vert Matcha originaire du Japon est apprécié en boisson bien-être aussi bien qu’en cuisine et consommé pour ses nombreuses vertus. Gorgé d’antioxydants puissants comme les catéchines et l’EGCG, ce thé surnommé l’or vert est réputé pour préserver la beauté de la peau et prévenir les effets du vieillissement naturel. Riche en caféine, le thé Matcha est une boisson tonique et revitalisante qui accompagne idéalement vos cures minceur. Nous avons sélectionné avec soin ce super aliment BIO de haute qualité, qui fera merveille dans vos boissons plaisir, desserts et pâtisseries !</h4>

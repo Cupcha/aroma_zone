@@ -3,14 +3,14 @@
 	import big_logo from '$lib/images/big_logo.png';
 	import search from '$lib/images/search.png';
 	import account from '$lib/images/account.png';
-	import arrow_right from '$lib/images/arrow_right.png';
 	import cart from '$lib/images/cart.png';
 	import newsletter from '$lib/images/newsletter.png';
 	let open = false;
-
 	function toggle() {
 		open = !open;
 	}
+	import "../app.postcss";
+ 	import "./styles.css";
 </script>
 
 <header class="fixed w-full z-1 h-12">
@@ -87,6 +87,7 @@
 							</a>
 						</li>
 						<li class="md:flex items-center hidden md:visible md:pl-3">
+							<a href="https://www.aroma-zone.com/checkout/cart/" class="header_icon_cart">
 							<a href="/cart" class="header_icon_cart">
 								<picture>
 									<img class="w-6" src={cart} alt="Panier">

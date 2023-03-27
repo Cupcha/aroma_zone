@@ -43,6 +43,7 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
+
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Maison8} alt="Maison8" class="rounded-t-lg center">
@@ -66,6 +67,7 @@
 									Curcuma Bio en poudre
 									</h1>
 									<br>
+
 
 									<h4 class="text-l text-gray-800  text-justify">
 										En association avec d'autres poudres colorantes, le Curcuma apporte des reflets vifs "jaune paille" à vos cheveux blonds ou châtains. C'est aussi un colorant jaune vif apprécié dans les préparations cosmétiques et produits de maquillage, et un actif apaisant et anti-âge pour la peau.</h4>

@@ -43,6 +43,7 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
+
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Nutrition10} alt="Nutrition10" class="rounded-t-lg center">
@@ -66,6 +67,7 @@
 									Poudre de pulpe de fruit de baobab bio
 									</h1>
 									<br>
+
 
 									<h4 class="text-l text-gray-800  text-justify ">
 										Trésor venu d’Afrique, la pulpe de fruit de Baobab est un super aliment riche en vitamine C et en calcium et connu pour ses nombreux bienfaits. Délicieuse en cuisine, cette poudre est une source importante de nutriments, vitamines, minéraux et antioxydants. Son goût naturellement fruité et acidulé est apprécié pour préparer des boissons rafraîchissantes ou agrémenter yaourts et smoothies. Une « superfood » idéale à consommer dans le cadre d’une alimentation saine et variée pour prévenir les carences et retrouver tonus et vitalité !</h4>

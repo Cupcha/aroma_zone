@@ -43,6 +43,7 @@
 				
 				<div class="max-w-2xl mx-auto px-4 py-8 lg:max-w-7xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:h-auto object-center">
 					
+
 					<div class="bg-white shadow-lg rounded-lg flex justify-center items-center">
 						<a href=" ">
 							<img src={Maison9} alt="Maison9" class="rounded-t-lg center">
@@ -66,6 +67,7 @@
 									Colorant Oxyde Minéral Brun
 									</h1>
 									<br>
+
 
 									<h4 class="text-l text-gray-800  text-justify">
 										Un brun intense pour réaliser en toute simplicité vos beiges, marrons, bruns. Indispensable si vous souhaitez réaliser facilement vos fonds de teint et mascaras bruns.</h4>
